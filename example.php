@@ -1,8 +1,15 @@
+
+<?php
+
+  $random = uniqid();
+
+?>
+
 <html>
 
 <head>
 
-  <script src = "lib/core/drop-and-go.js"></script>
+  <script src = "lib/core/drop-and-go.js?id=<?=$random?>"></script>
 
 </head>
 
